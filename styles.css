@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-header h1 {
+    font-size: 36px;
+    color: #1877f2;
+    margin: 0;
+}
+
+.login-header p {
+    font-size: 14px;
+    color: black;
+    margin: 8px 0 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 95%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #166fe5;
+}
+
+.login-form .forgot-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.login-form hr {
+    border: 0;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 0;
+}
+
+.login-form .create-account {
+    width: 100%;
+    padding: 12px;
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-page p {
+    font-size: 12px;
+    color: #606770;
+    margin: 10px 0;
+}
+
+.create-page a {
+    color: #1877f2;
+    text-decoration: none;
+}
